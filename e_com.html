@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>ShopLine</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale="1.0">
+	
+	<style>
+	body {
+		helvetica;
+	}
+	
+	.div1 {
+		background-color:white;
+		padding: 16px 40px;
+		font-family:helvetica
+		font-size:30px;
+		font-weight:bold;
+		float:left;
+		width:100%;
+		overflow:auto;
+	}
+	.menu {
+		float:left;
+		padding-bottom:10px;
+		padding-top:15px;
+		padding-left:100px;
+				
+	}
+	
+	input[type="text"]{
+		clear:both;
+		border:2px solid green;
+		height:30px;
+		border-radius:15px;		
+	}
+	
+	input[type="button"]{
+		border:2px solid black;
+		height:30px;
+		padding:5px;		
+		margin-top:20px;
+		border-radius:15px;
+		color:white;
+		width:150px;
+		background-color:red;
+		font-size:30x;
+		font-family:helvetica;
+		font-weight:bold;
+	}
+	
+	input[type="search"]{
+		border:2px solid red;
+		height:30px;
+		margin-top:20px;
+		border-radius:15px;
+		font-size:25x;
+		font-family:calibri;
+		font-weight:bold;
+	
+	}
+	
+	a {
+		font-family:Comic Sans MS;
+		float:left; 
+		width:10%;
+		padding-left:40px
+	
+	}
+	
+	.menu-form {
+		float:right; 
+		width:30%;
+		
+	}
+	
+	.shop {
+		clear:both;
+		font-size:40px;
+		color:black;
+		font-family:broadway;
+		letter-spacing:2px;
+		padding-top:25px;
+		
+	}
+	.line {
+		font-size:40px;
+		color:firebrick;
+		padding-top:20px;
+		font-family:broadway;
+		letter-spacing:2px;
+	}	
+	
+	.div2 {
+		
+		background-color:beige;
+		height:600px;
+	}
+	h1 {
+		padding-left:160px;
+		padding-top:30px;
+		text-align:center;
+		font-size:55px;
+		font-family:impact;
+		letter-spacing:2px;
+	}
+	.div-2-img {
+		float:right;
+		width:45%;
+		margin-top:70px;
+		margin-right:0px;
+		
+	}
+	.shop-now {
+		clear:both;
+		color:white;
+		background-color:firebrick;
+		padding:20px;
+		border-radius:15px;
+		border:2px solid black;
+		
+		
+	}
+	
+	#div2 {
+		float:left;
+		padding-top:80px;
+		text-align:center;
+		width:45%;
+		font-family:impact;
+		letter-spacing:2px;
+	}
+	.arrivals{
+		clear:both;
+		font-family:calibri;
+		text-align:center;
+		height:150px;
+		margin-top:0px;
+		font-size:30px;
+		padding-top:30px;
+	}
+	
+	
+	}
+	.products{
+		overflow:auto;
+		margin:20px;
+		
+	}
+	#div4{
+		float:left;
+		width:24%;
+		tex-align:center;
+		font-size:25px;
+		font-family:calibri;
+		
+	}
+	#div5, #div6, #div7,#div8 {
+		float:left;
+		width:24%;
+		tex-align:center;
+		font-size:25px;
+		font-family:calibri;
+		margin-left:15px;
+		
+	}
+	.border-img{
+		border:3px solid black;
+	}
+	.cart {
+		font-size:20px;
+		background-color:firebrick;
+		width:150px;
+		margin-left:0px;
+		margin-right:0px;
+		font-family:calibri;
+		border:3px solid white;
+		font-weight:bold;
+		padding-top:3px;
+		color:white;
+	}
+	.news {
+		margin-top:50px;
+		font-size:20px;
+		font-family:calibri;
+	}
+	.div9 {
+		clear:both;
+		margin-top:40px;
+	}
+	
+	
+	.footer{
+		clear:both;
+		background-color:grey;
+		text-align:center;
+		border-top:4px solid chocolate;
+		font-size:20px;
+		font-family:calibri;
+		padding-top:10px;
+		height:60px;
+	}
+	</style>
+	
+	</head>
+	
+	<body>
+	
+	<div class="div1">
+		<a class="shop,line"><span class="shop">S</span>hop<span class="line">L</span>ine</a>
+		<div class="menu">
+			<a>Home</a>
+			<a>Shop</a>
+			<a>Blog</a>
+			<a>About</a>
+			<a>Contact</a>
+		</div>
+		
+		<form class="menu-form" action="" method="GET">
+		<input type="search" name="search" placeholder=" search products...">&nbsp&nbsp
+		<input type="button" name="signin" value="Sign In">	
+		</form>
+		
+	</div>
+	
+	<div class="div2">
+	
+		<div id="div2">
+			<h1>Select Your New <br>
+			Perfect Styles
+			</h1>
+			
+			<input class="shop-now " type="submit" name="signin" value="SHOP NOW">
+		</div>
+		<div class="div-2-img">
+			<img src="images/navy_watch-removebg-preview.png" width=500px" height="400px">
+		</div>
+		
+		<p style="clear:both"></p>
+	
+	</div>
+	<hr>
+	<div class="arrivals">
+		<h2>New Arrivals<h2>
+		
+	</div>
+	
+	
+	<div class="products">
+		<div id ="div4" >
+			<img  src="images/air.jpeg" width="100%" height="300px"><br>
+			<span>price:$33.87</span>
+			<input class="cart"type="submit" name="button" value="Add to cart">
+			<br><br><br>
+			
+			<img  src="images/shoe.jpeg" width="100%" height="300px"><br>
+			<span>price:$40.87</span>
+			<input class="cart"type="submit" name="button" value="Add to cart">
+			<br>
+		</div>
+		<div id ="div5" >
+			<img  src="images/men.jpeg" width="100%" height="300px"><br>
+			<span>price:$33.87</span>
+			<input class="cart"type="submit" name="button" value="Add to cart">
+			<br><br><br>
+			
+			<img src="images/gold.jpeg" width="100%" height="300px"><br>
+			<span>price:$40.87</span>
+			<input class="cart"type="submit" name="button" value="Add to cart">
+			<br>
+		</div>
+		<div id ="div6" >
+			<img  src="images/yeezy.jpeg" width="100%" height="300px"><br>
+			<span>price:$33.87</span>
+			<input class="cart"type="submit" name="button" value="Add to cart">
+			<br><br><br>
+			
+			<img src="images/sneak.jpeg" width="100%" height="300px"><br>
+			<span>price:$40.87</span>
+			<input class="cart"type="submit" name="button" value="Add to cart">
+			<br>
+		</div>
+		<div id ="div7" >
+			<img  src="images/tie.jpeg" width="100%" height="300px"><br>
+			<span>price:$33.87</span>
+			<input class="cart"type="submit" name="button" value="Add to cart">
+			<br><br><br>
+			
+			<img src="images/suit.jpeg" width="100%" height="300px"><br>
+			<span>price:$40.87</span>
+			<input class="cart"type="submit" name="button" value="Add to cart">
+			<br>
+		</div>
+	</div>
+	<hr>
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	
+	<!--<div class="div9">
+		<form action="" method="GET">
+		<label for="Newsletter" class="news">Subscribe to our Newsletter for discount and friday Sales</label>&nbsp &nbsp
+		<input type="text"name="email" placeholder="Email address">
+		</form>-->
+	</div>
+	
+	<div class="footer">
+		<p>Designed by 2nde_stephen</p>
+	</div>
+	</body>
+	
+</html>
